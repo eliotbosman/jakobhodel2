@@ -1,0 +1,38 @@
+li {
+    list-style-type: none;
+    vertical-align: text-top;
+
+}
+
+body {
+    background: whitesmoke;
+
+}
+
+img {
+    box-shadow: whitesmoke inset 0px 0px 100px 4px;
+}
+
+nav {
+    display: grid; grid-template-columns: 1fr 1fr 1fr;
+    font-size: 18pt; color: BLUE;
+    letter-spacing: -2pt;
+    position: sticky; top: 0; width: 100%;
+}
+
+body {
+    font-family: 'G2-Erika Mono';
+}
+
+@font-face {
+    font-family: 'G2-Erika Mono';
+    src: url('fonts/G2-Erika-Mono.woff2') format('woff2'),
+        url('fonts/G2-Erika-Mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
